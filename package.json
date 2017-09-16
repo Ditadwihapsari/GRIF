@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "del": "*",
+    "gulp": "^3.9.1",
+    "gulp-concat": "*",
+    "gulp-cssnano": "*",
+    "gulp-imagemin": "*",
+    "gulp-rename": "*",
+    "gulp-ruby-sass": "^2.0.6",
+    "gulp-sass": "^2.1.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "*",
+    "node-sass": "^3.4.2"
+  },
+  "dependencies": {
+    "jquery": "^2.2.0"
+  }
+}

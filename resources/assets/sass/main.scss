@@ -1,0 +1,65 @@
+$orange: #F15A23;
+$greeng: #166B77;
+
+.banner{
+  background: #fff;
+}
+
+.navbar-default{
+  .navbar-brand{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color: $orange;
+    text-shadow: 0px 0px 0px;
+  }
+  li{
+    a{
+      color: $orange !important;
+    }
+  }
+}
+
+.book-form{
+  width: 60%;
+  padding: 10px;
+  position: absolute;
+  top: 22.5%;
+  left: 20%;
+  background: none;
+  h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 35px;
+    line-height: 50px;
+    margin-bottom: 30px;
+  }
+}
+
+input{
+  &[type="submit"] {
+      position: absolute;
+      top: 30px;
+      left: 190px;
+      width: auto !important;
+      background: $orange !important;
+      border-radius: 5px;
+  }
+}
+
+select{
+  &#sel1 {
+      width: 50%;
+  }
+}
+
+.col-md-4{
+  &.col-sm-4{
+    &.col-xs-4 {
+        border: 1px solid $orange;
+        .opt {
+            height: 90px;
+            padding: 15px;
+        }
+    }
+  }
+}
