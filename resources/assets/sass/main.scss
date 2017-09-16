@@ -97,7 +97,7 @@ select{
     }
     .detail{
       color: #6b6c7d;
-      width: 35%;
+      width: 30%;
       margin-left: 30px;
       font-size: 22px;
       p{
@@ -111,4 +111,8 @@ select{
 
 .detail, .rating{
   color: #000;
+}
+
+.calendar-free{
+  padding: 50px 110px !important;
 }
