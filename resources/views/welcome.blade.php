@@ -39,12 +39,9 @@
       </form>
     </div>
 </div>
-<!-- //Header -->
 
-  <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" /><!--bootstrap-->
-  <link href="css/font-awesome.css" rel="stylesheet"><!--font-awesome-->
-  <link href="css/search/style.css" rel="stylesheet">
-  <div class="container">
+  <div class="container top-guide">
+    <h3>Our top guide</h3>
           <div class="row">
               @foreach ($fromDB as $dataguide)
                 <a href="profil/{{$dataguide->Nomor}}">

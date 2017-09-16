@@ -20,3 +20,5 @@ Route::get('/home', function () {
 Route::get('/search', 'BNIController@show');
 
 Route::get('/profil/{id}', 'BNIController@showprofil');
+
+Route::get('/confirm/{id}', 'BNIController@confirm');

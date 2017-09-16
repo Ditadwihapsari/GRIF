@@ -1,7 +1,6 @@
 <?php
 
 namespace App\Http\Controllers;
-
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use App\Http\Requests;
@@ -28,28 +27,26 @@ class BNIController extends Controller
 
   public function showprofil($id)
   {
-
-
-           $hasilprofil = DB::table('guide')->where('Nomor', $id)->get();
-
+    $hasilprofil = DB::table('guide')->where('Nomor', $id)->get();
     return view('profil', ['profil' => $hasilprofil]);
+  }
 
+  public function confirm($id)
+  {
+    $hasilconfirm = DB::table('guide')->where('Nomor', $id)->get();
+    return view('confirm', ['confirm' => $hasilconfirm]);
   }
 
   public function getSearch()
         {
             //get keywords input for search
             $keyword=  Input::get('q');
-
             $hasilprofil = DB::table('guide')
                   ->select(DB::raw("*"))
                    ->where('tempat', '=', $keyword)
                    ->get();
-
             return view('search', ['fromDB' => $dariDB]);
-
         }
 }
-
 
  ?>
