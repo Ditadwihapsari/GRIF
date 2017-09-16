@@ -13,92 +13,87 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Memorize Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
-		function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!-- custom-theme -->
 <!--css links-->
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- custom-theme -->
 <link href="../css/bootstrap.css" rel="stylesheet" type="text/css" media="all" /><!--bootstrap-->
-<link href="../css/font-awesome.css" rel="stylesheet"><!--font-awesome-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 <link rel="stylesheet" href="../css/chocolat.css" type="text/css" media="screen"><!--Gallery-->
 <link rel="stylesheet" type="text/css" href="../css/style3.css" /><!--Banner Text-->
 <link rel="stylesheet" href="../css/flexslider.css" type="text/css" media="screen" property="" /><!--Blog slider-->
 <link href="../css/mislider.css" rel="stylesheet" type="text/css" /><!--Testimonials-->
 <link href="../css/mislider-custom.css" rel="stylesheet" type="text/css" /><!--Testimonials-->
 <link href="../css/style.css" rel="stylesheet" type="text/css" media="all" /><!--stylesheet-->
-<link href="../css/minified/style.min.css" rel="stylesheet" type="text/css" media="all" /><!--stylesheet-->
-<link rel="stylesheet" href="..///code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-	<script>
-	$( function() {
-		$( "#datepicker" ).datepicker();
-	} );
-	</script>
+<link href="../css/minified/style.min.css" rel="stylesheet" /><!--stylesheet-->
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
 <!--//css links-->
 <!--fonts-->
-<link href="//fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
-<link href="//fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet" />
 <!--//fonts-->
 </head>
 <body>
-<!-- Header -->
-<div id="home" class="banner w3l">
-		<div class="header-nav">
+	<!-- Header -->
+	<div id="home" class="banner w3l">
+			<div class="header-nav">
+			<div class="container">
+				<nav class="navbar navbar-default">
+						<div class="navbar-header logo">
+									<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+										<span class="sr-only">Toggle navigation</span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									</button>
+									<h1>
+										<a class="navbar-brand" href="index.html">GRIF</a>
+									</h1>
+						</div>
+						<!-- navbar-header -->
+						<div class="header-right-agileits">
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav navbar-right">
+								<li><a href="index.html">Become a Guide</a></li>
+								<li><a href="#about">Sign in</a></li>
+								<li><a href="#team">Help</a></li>
+							</ul>
+						</div>
+						<div class="clearfix"> </div>
+						</div>
+					</nav>
+								<div class="clearfix"> </div>
+			</div>
+			</div>
+
+			@yield('isi')
+
+	<!-- //footer -->
+	<div class="copy">
 		<div class="container">
-			<nav class="navbar navbar-default">
-					<div class="navbar-header logo">
-								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-									<span class="sr-only">Toggle navigation</span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-								</button>
-								<h1>
-									<a class="navbar-brand" href="../index.html">GRIF</a>
-								</h1>
-					</div>
-					<div class="contact-bnr-w3-agile">
-						<a class="page-scroll" href="../#myModal2" data-toggle="modal" data-hover="LOGIN">LOGIN</a>
-					</div>
-					<!-- navbar-header -->
-					<div class="header-right-agileits">
-					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-						<ul class="nav navbar-nav navbar-right">
-							<li><a href="../index.html" class=" active">Home</a></li>
-							<li><a href="../#about" class=" scroll">About</a></li>
-							<li><a href="../#team" class=" scroll">Services</a></li>
-							<li><a href="../#events" class=" scroll">Events</a></li>
-							<li><a href="../#projects" class=" scroll">Blog</a></li>
-							<li><a href="../#contact" class=" scroll">Contact</a></li>
-						</ul>
-					</div>
-					<div class="clearfix"> </div>
-					</div>
-				</nav>
-							<div class="clearfix"> </div>
+			<p>© 2017 . All Rights Reserved | Design by GRIF team</p>
+				<ul class="agileits_social_list">
+					<li><a href="#" class=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+					<li><a href="#" class=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+					<li><a href="#" class=""><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+					<li><a href="#" class=""><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
+				</ul>
 		</div>
-		</div>
-
-		@yield('isi')
-
-<!-- //footer -->
-<div class="copy">
-	<div class="container">
-		<p>© 2017 Memorize . All Rights Reserved | Design by <a href="../http://w3layouts.com/">W3layouts</a></p>
-			<ul class="agileits_social_list">
-				<li><a href="../#" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-				<li><a href="../#" class="agile_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-				<li><a href="../#" class="w3_agile_dribble"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-				<li><a href="../#" class="w3_agile_vimeo"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
-			</ul>
 	</div>
-</div>
-<!--/footer -->
+	<!--/footer -->
 <!-- js -->
 <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
 <!--//js -->
 <!-- OnScroll-Number-Increase-JavaScript -->
 	<script type="text/javascript" src="js/numscroller-1.0.js"></script>
+
+		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<script>
+		$( function() {
+			$( "#datepicker" ).datepicker();
+		} );
+		</script>
 <!-- //OnScroll-Number-Increase-JavaScript -->
 <!--Scrolling-top -->
 <script type="text/javascript" src="js/move-top.js"></script>

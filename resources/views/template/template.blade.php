@@ -31,6 +31,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!--fonts-->
 <link href="//fonts.googleapis.com/css?family=Courgette" rel="stylesheet" />
 <link href="//fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet" />
+
+<!-- //Header -->
+
+  <!-- <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" /> -->
+  <link href="css/font-awesome.css" rel="stylesheet">
+  <link href="css/search/style.css" rel="stylesheet">
 <!--//fonts-->
 </head>
 <body>
@@ -69,7 +75,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		@yield('isi')
 
 <!-- //footer -->
-<div class="copy">
+<div class="copy footer">
 	<div class="container">
 		<p>© 2017 Memorize . All Rights Reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
 			<ul class="agileits_social_list">
