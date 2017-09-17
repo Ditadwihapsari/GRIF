@@ -17,7 +17,7 @@
                           <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
                           <p class="cilik">Rated by {{$dataguide->Nomor }} users</p>
                         </div>
-                        <a href="/confirm/{{$dataguide->Nomor}}" class="btn btn-green">Hire</a>
+                        <a href="/payment" class="btn btn-green">Hire</a>
                       </div>
               </div>
               <h3>Bio</h3>

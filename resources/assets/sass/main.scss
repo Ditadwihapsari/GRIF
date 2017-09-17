@@ -116,3 +116,27 @@ select{
 .calendar-free{
   padding: 50px 110px !important;
 }
+
+.payment {
+    width: 30%;
+    margin: 150px auto;
+    h3{
+      text-align: center;
+      color: $orange;
+      font-family: 'Roboto Condensed', sans-serif;
+      margin-bottom: 30px;
+    }
+    h5{
+      color: $orange;
+      font-family: 'Roboto Condensed', sans-serif;
+    }
+    .row{
+      .wrap-a{
+        min-height: 50px;
+      }
+    }
+    .confim-invoice{
+      width: 100%;
+      padding: 0 20%;
+    }
+}
